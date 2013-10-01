@@ -19,7 +19,7 @@
 
 Chocolate is a simple Node.js webapp framework built using Coffeescript. 
 
-It includes :
+It includes:
    
  - an **online IDE** (with Coffeescript, Javascript, Css and Markdown support)
 
