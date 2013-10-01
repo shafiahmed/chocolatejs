@@ -15,7 +15,7 @@
      `-..____________..-'                                    |__/      
                                                      
 
-# Chocolate - Web Apps with a sweet taste
+# Chocolate - WebApps with a sweet taste
 
 Chocolate is a simple Node.js webapp framework built using Coffeescript. 
 
