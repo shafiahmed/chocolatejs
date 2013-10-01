@@ -82,7 +82,7 @@ See history in **CHANGELOG.md** file
 
 ---
 
-## <a id="Choco-Summary"></a> Summary
+## <a name="Choco-Summary"></a> Summary
 
  - [Demo](#Choco-Demo)
  - [Installation](#Choco-Installation)
@@ -119,13 +119,13 @@ See history in **CHANGELOG.md** file
 
 ---
 
-## <a id="Choco-Demo"></a> Demo [⌂](#Choco-Summary)
+## <a name="Choco-Demo"></a> Demo [⌂](#Choco-Summary)
 
 There is a non-writable demo at : <https://demo.chocolatejs.org/>
 
 ---
 
-## <a id="Choco-Installation"></a> Installation [⌂](#Choco-Summary) 
+## <a name="Choco-Installation"></a> Installation [⌂](#Choco-Summary) 
 
 This procedure was tested as **root** on Debian 6.0
 
@@ -256,7 +256,7 @@ Please **reboot** to activate Upstart and Monit...
 
 ---
 
-## <a id="Choco-UseIt"></a> Use it [⌂](#Choco-Summary)
+## <a name="Choco-UseIt"></a> Use it [⌂](#Choco-Summary)
 
 Chocolate runs on your server and responds to https requests on port 8026
 
@@ -269,7 +269,7 @@ You can also use a simple Http server by specifying options in the config.coffee
     exports.http_only = yes
     exports.port = 80
 
-### <a id="Choco-UseIt-LogOn"></a> Log on [⌂](#Choco-Summary)
+### <a name="Choco-UseIt-LogOn"></a> Log on [⌂](#Choco-Summary)
 
 You defined a master key when using chocomake to create myapp.
 
@@ -277,13 +277,13 @@ You enter that key at:
 
     https://myserver:8026/-/server/interface?register_key
 
-### <a id="Choco-UseIt-LogOff"></a> Log off [⌂](#Choco-Summary) 
+### <a name="Choco-UseIt-LogOff"></a> Log off [⌂](#Choco-Summary) 
 
 To logoff go to : 
 
     https://myserver:8026/-/server/interface?forget_key
 
-### <a id="Choco-UseIt-Enter"></a> Enter Chocolate Studio [⌂](#Choco-Summary) 
+### <a name="Choco-UseIt-Enter"></a> Enter Chocolate Studio [⌂](#Choco-Summary) 
 
 To enter Chocolate Studio, go to: 
 
@@ -291,7 +291,7 @@ To enter Chocolate Studio, go to:
 
 There you can create, modify, move and commit source files
 
-### <a id="Choco-UseIt-Source"></a> Web access to source files and functions [⌂](#Choco-Summary) 
+### <a name="Choco-UseIt-Source"></a> Web access to source files and functions [⌂](#Choco-Summary) 
 
 You access a file directly in the browser:
 
@@ -311,7 +311,7 @@ To run `default.spec.coffee` specs (if you create it)
 
     https://myserver:8026/default?so=eval
 
-### <a id="Choco-UseIt-Locco"></a> Locco: the Chocolate protocol [⌂](#Choco-Summary) 
+### <a name="Choco-UseIt-Locco"></a> Locco: the Chocolate protocol [⌂](#Choco-Summary) 
 
 Requests to Chocolate server follow theses rules (the Locco protocol):
 
@@ -416,7 +416,7 @@ Usage:
 
 ---
 
-## <a id="Choco-Studio"></a> Chocolate Studio [⌂](#Choco-Summary) 
+## <a name="Choco-Studio"></a> Chocolate Studio [⌂](#Choco-Summary) 
 
 A sweet web app development environment.
 
@@ -429,8 +429,8 @@ You can create and move files (but not rename or delete files ! I should add thi
 The central panel has the code editor.
 It has syntax highlighting for Coffeescript, Javascript, CSS and Markdown.
 
-<a id="Choco-Automplete"></a>
-### <a id="Choco-Studio"></a> Autocomplete and Snippets [⌂](#Choco-Summary) 
+<a name="Choco-Automplete"></a>
+### <a name="Choco-Studio"></a> Autocomplete and Snippets [⌂](#Choco-Summary) 
 
 It has a basic automplete feature that, by pressing CTRL+SPACE keys, 
 proposes you a list of words collected from your file. 
@@ -454,7 +454,7 @@ Then you can move to *meta* and *body* section by pressing the TAB key.
 
 Currently there are Coffeescript, Javascript, CSS and HTML snippets in the editor.
 
-<a id="Choco-Studio-panels"></a>
+<a name="Choco-Studio-panels"></a>
 ### Spec, Doc, Lab, Help and Notes panels [⌂](#Choco-Summary) 
 
 The central panel can also split to display the associated spec file (see [Specolate](#Choco-Specolate))  
@@ -481,7 +481,7 @@ The [Notes](#Choco-Newnotes) panel allows you to write and save some notes.
 
 ---
 
-## <a id="Choco-Lab"></a> The Lab [⌂](#Choco-Summary) 
+## <a name="Choco-Lab"></a> The Lab [⌂](#Choco-Summary) 
 
 The Lab helps you write your code and test cases, syntax...
 
@@ -581,7 +581,7 @@ Then change **[0.\.3]** to **[0.\.6]** and see the result...
 
 ---
 
-## <a id="Choco-WriteModules"></a> How to write Modules [⌂](#Choco-Summary) 
+## <a name="Choco-WriteModules"></a> How to write Modules [⌂](#Choco-Summary) 
 
 You can create a module by pressing the `Create` button. 
 It will create a module with the name you provide in the currently displayed folder.
@@ -647,7 +647,7 @@ i.e.:
 
 ---
 
-## <a id="Choco-DB"></a> ChocoDB [⌂](#Choco-Summary) 
+## <a name="Choco-DB"></a> ChocoDB [⌂](#Choco-Summary) 
 
 ChocoDB is intended to be *a kind of* nosql database running on SQLite.
 
@@ -720,7 +720,7 @@ Here is example taken from the /server/reserve spec file:
 
 ---
 
-## <a id="Choco-Flow"></a> Chocoflow [⌂](#Choco-Summary) 
+## <a name="Choco-Flow"></a> Chocoflow [⌂](#Choco-Summary) 
 
 Chocoflow is a really simple tool to help manage asynchronous calls serialization.
 
@@ -833,7 +833,7 @@ Here is an example taken from /general/chocoflow spec file:
 
 ---
 
-## <a id="Choco-Debugate"></a> Debugate [⌂](#Choco-Summary) 
+## <a name="Choco-Debugate"></a> Debugate [⌂](#Choco-Summary) 
 
 Debugate is really basic tool to help profile and log code execution.
 
@@ -860,7 +860,7 @@ Here is a sample taken from the /general/debugate spec file:
 
 ---
 
-## <a id="Choco-Chocokup"></a> Chocokup [⌂](#Choco-Summary) 
+## <a name="Choco-Chocokup"></a> Chocokup [⌂](#Choco-Summary) 
 
 Chocokup is derived from [Coffeekup](http://coffeekup.org) which is a templating engine for node.js and browsers that lets you to write your html templates in 100% pure CoffeeScript.
 
@@ -932,9 +932,9 @@ This will display a basic Calculator
 
 &nbsp;
 
-### <a id="Choco-Chocokup-Usage"></a> Usage [⌂](#Choco-Summary) 
+### <a name="Choco-Chocokup-Usage"></a> Usage [⌂](#Choco-Summary) 
 
-#### <a id="Choco-Chocokup-Document"></a> Chocokup.Document [⌂](#Choco-Summary) 
+#### <a name="Choco-Chocokup-Document"></a> Chocokup.Document [⌂](#Choco-Summary) 
 
 In a Coffeescript source file (ie. : mypage.coffee),  
 insert an `interface` function that returns a new `Chocokup.Document`
@@ -949,7 +949,7 @@ insert an `interface` function that returns a new `Chocokup.Document`
             
 Then open a web browser and open that page: ie. https://myserver/mypage
 
-#### <a id="Choco-Chocokup-Panel"></a> Chocokup.Panel [⌂](#Choco-Summary) 
+#### <a name="Choco-Chocokup-Panel"></a> Chocokup.Panel [⌂](#Choco-Summary) 
 
 If you only want to build a partial document, you can use `Chocokup.Panel`
 
@@ -961,7 +961,7 @@ If you only want to build a partial document, you can use `Chocokup.Panel`
     exports.interface = ->
         new Chocokup.Panel(kup).render()
 
-### <a id="Choco-Chocokup-Reference"></a> Reference [⌂](#Choco-Summary) 
+### <a name="Choco-Chocokup-Reference"></a> Reference [⌂](#Choco-Summary) 
 
 Read the complete Chocokup reference in Chocolate Studio Chocokup help panel.
 
@@ -969,13 +969,13 @@ Read the complete Chocokup reference in Chocolate Studio Chocokup help panel.
 
 ---
 
-## <a id="Choco-Specolate"></a> Specolate [⌂](#Choco-Summary) 
+## <a name="Choco-Specolate"></a> Specolate [⌂](#Choco-Summary) 
 
 Specolate is a client and server side behavior/test driven development tool.
 
 It uses [Jasmine](http://pivotal.github.com/jasmine), a great behavior-driven development framework for testing JavaScript code.
 
-### <a id="Choco-Specolate-Usage"></a> Usage [⌂](#Choco-Summary) 
+### <a name="Choco-Specolate-Usage"></a> Usage [⌂](#Choco-Summary) 
 
 Something interesting is that it runs your specs in the server **and** in the browser contexts.
 
@@ -1006,7 +1006,7 @@ You only have add, at the begining of your spec file:
 
 ---
 
-## <a id="Choco-Doccolate"></a> Doccolate [⌂](#Choco-Summary) 
+## <a name="Choco-Doccolate"></a> Doccolate [⌂](#Choco-Summary) 
 
 **Docco** is a literate-programming-style
 documentation generator. It produces html that displays your comments
@@ -1029,7 +1029,7 @@ by using the `how=help` Http parameter: `https://myserver/mymodule?how=help`
 
 ---
 
-## <a id="Choco-Newnotes"></a> Newnotes [⌂](#Choco-Summary) 
+## <a name="Choco-Newnotes"></a> Newnotes [⌂](#Choco-Summary) 
 
 Newnotes is a note taking tool that helps memorize and get things done.
 
@@ -1063,16 +1063,16 @@ Dimensions :
  
  - Share: No share, Communication, Partnership, Work, Banking, Insurance
 
-### <a id="Choco-Newnotes-Usage"></a> Usage [⌂](#Choco-Summary) 
+### <a name="Choco-Newnotes-Usage"></a> Usage [⌂](#Choco-Summary) 
 
 You can use it directly inside Chocolate Studio in the Notes panel, 
 but also directly and fullscreen at: `https://myserver/-/server/newnotes`
 
-### <a id="Choco-Newnotes-Impress"></a> Impress.js with Newnotes ! [⌂](#Choco-Summary) 
+### <a name="Choco-Newnotes-Impress"></a> Impress.js with Newnotes ! [⌂](#Choco-Summary) 
 
 You can display a Newnotes branch with impress.js: `https://myserver/-/server/newnotes?my-branch-title&as=impress`
 
-### <a id="Choco-Newnotes-Reference"></a> Reference [⌂](#Choco-Summary) 
+### <a name="Choco-Newnotes-Reference"></a> Reference [⌂](#Choco-Summary) 
 
 Read the complete Newnotes reference in Chocolate Studio Newnotes help panel.
 
@@ -1080,7 +1080,7 @@ Read the complete Newnotes reference in Chocolate Studio Newnotes help panel.
 
 ---
 
-## <a id="Choco-RoadMap"></a> Road Map [⌂](#Choco-Summary) 
+## <a name="Choco-RoadMap"></a> Road Map [⌂](#Choco-Summary) 
 
 Chocolate is currently (2013/07) an experiment that needs to be completed and polished:
 
@@ -1096,7 +1096,7 @@ Chocolate is currently (2013/07) an experiment that needs to be completed and po
 
 ---
 
-## <a id="Choco-License"></a> License [⌂](#Choco-Summary) 
+## <a name="Choco-License"></a> License [⌂](#Choco-Summary) 
     
     MIT License
     
